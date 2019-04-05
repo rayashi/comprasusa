@@ -25,7 +25,7 @@ class SettingsViewController: UIViewController {
     func setValues() {
         calculator.usdRate = calculator.convertToDouble(tfUSDRate.text!)!
         calculator.iofRate = calculator.convertToDouble(txIOFRate.text!)!
-        calculator.stateTaxeRate = calculator.convertToDouble(tfUSDRate.text!)!
+        calculator.stateTaxeRate = calculator.convertToDouble(tfStateTaxesRate.text!)!
     }
 
 }
