@@ -39,5 +39,13 @@ class Calculator {
         let vlr = formatter.number(from: string)?.doubleValue
         return vlr
     }
+    
+    func convertToString(from: Double, currencySymbol: String) -> String? {
+        formatter.numberStyle = .currency
+        formatter.currencySymbol = currencySymbol
+        formatter.alwaysShowsDecimalSeparator = true
+        return formatter.string(for: from)
+    }
+
 }
 

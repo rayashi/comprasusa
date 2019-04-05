@@ -26,28 +26,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "CompraUSA/Calculator.swift"
-            timestampString = "576100151.176229"
+            timestampString = "576116057.89045"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "39"
-            endingLineNumber = "39"
-            landmarkName = "convertToDouble(_:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "CompraUSA/Calculator.swift"
-            timestampString = "576100151.1766191"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "40"
-            endingLineNumber = "40"
-            landmarkName = "convertToDouble(_:)"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "convertToString(from:currencySymbol:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
